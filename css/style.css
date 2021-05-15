@@ -1,0 +1,70 @@
+/* Main Styles */
+
+body {
+    position: relative;
+    width: auto;
+    background-color: #ffffe6;
+ }
+
+ main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+ }
+
+html {
+    font-family: 'Newsreader', serif;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* Main Classes */
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4)
+    }
+
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #ffffb3;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+    
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+        
+.hidden {
+    display: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: solid 1px beige;
+    border-radius: 5px;
+    background: white;
+    height: 150px;
+}
+
+.text-container{
+    margin-left: 20px;
+}
